@@ -1,0 +1,51 @@
+.drive {
+  display: flex;
+
+  .video {
+    position: relative;
+    width: 600px;
+    height: 340px;
+    background: gray;
+  }
+
+  .result {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: white;
+    background: #0073eb;
+
+    .label {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .card-container {
+    width: 600px;
+    margin: 10px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    .card {
+      display: inline-block;
+      width: 120px;
+      height: 70px;
+      margin: 0 2px;
+    }
+  }
+
+  .right {
+    display: flex;
+    margin: 20px 0;
+  }
+
+  #json-pretty {
+    .__json-pretty__ {
+      height: 370px;
+      overflow-y: auto;
+      background: #fff;
+    }
+  }
+}

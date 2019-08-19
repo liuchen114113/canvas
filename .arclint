@@ -1,0 +1,8 @@
+{
+  "linters": {
+    "typescript": {
+      "type": "tslint",
+      "include": ["(\\.ts$)", "(\\.tsx$)"]
+    }
+  }
+}

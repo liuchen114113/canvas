@@ -1,0 +1,5 @@
+{
+  "phabricator.uri": "https://cr.hobot.cc/",
+  "history.immutable": false,
+  "load": ["fe-arc-linters"]
+}
